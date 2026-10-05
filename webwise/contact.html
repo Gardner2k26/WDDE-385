@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | WebWise</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header>
+    <div class="header-container">
+        <h1>WebWise</h1>
+
+        <div class="accessibility-tools">
+            <button id="increaseText">A+</button>
+            <button id="normalText">A</button>
+            <button id="contrastButton">High Contrast</button>
+        </div>
+    </div>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ux.html">UX Design</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+            <li><a href="security.html">Security</a></li>
+            <li><a href="optimization.html">Optimization</a></li>
+            <li><a href="responsive.html">Responsive Design</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main-content">
+
+    <section>
+        <h2>Contact WebWise</h2>
+
+        <p>
+            Have a question, suggestion, or accessibility concern?
+            Use the form below to provide feedback.
+        </p>
+
+        <form>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 WebWise | A Beginner's Resource Hub</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
